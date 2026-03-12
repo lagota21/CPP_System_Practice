@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Phase1_fundamentals\01_variables\Variables.cpp" />
+    <ClCompile Include="Phase1_fundamentals\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h" />
+    <ClInclude Include="Phase1_fundamentals\Experiment_runner.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,9 +130,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Phase1_fundamentals\01_variables\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
