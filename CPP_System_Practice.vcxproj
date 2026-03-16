@@ -22,11 +22,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Phase1_fundamentals\01_variables\Variables.cpp" />
     <ClCompile Include="Phase1_fundamentals\02_operators\Operators.cpp" />
+    <ClCompile Include="Phase1_fundamentals\03_controlFlow\ControlFlow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Experiment_runner.h" />
     <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h" />
     <ClInclude Include="Phase1_fundamentals\02_operators\Operators.h" />
+    <ClInclude Include="Phase1_fundamentals\03_controlFlow\controlFlow.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />

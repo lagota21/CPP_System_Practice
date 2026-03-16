@@ -3,5 +3,6 @@
 enum class Experiment
 {
 	Variables,
-	Operators
+	Operators,
+	ControlFlow,
 };
