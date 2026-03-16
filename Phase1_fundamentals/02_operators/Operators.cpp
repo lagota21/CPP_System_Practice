@@ -67,4 +67,11 @@ void RunOperatorsExperiment()
 	std::cout << "isAlive && canClimb: " << (isAlive && canClimb) << "\n"; // Logical AND
 	std::cout << "isAlive || canClimb: " << (isAlive || canClimb) << "\n"; // Logical OR
 	std::cout << "!isAlive: " << (!isAlive) << "\n"; // Logical NOT
+
+	// Ternary operator
+
+	std::cout << "\n=== Ternary Operator Test ===\n\n";
+	std::string status = isAlive ? "Player is Alive" : "Player is Defeated";
+
+	std::cout << "Ternary operator result: " << status << "\n";
 }
