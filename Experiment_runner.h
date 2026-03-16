@@ -3,5 +3,5 @@
 enum class Experiment
 {
 	Variables,
-	Loops
+	Operators
 };

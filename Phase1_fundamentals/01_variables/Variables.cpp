@@ -30,7 +30,7 @@ void RunVariablesExperiment()
 
 	// Output the size of each variable type in bytes
     std::cout << "\n--- Variable Sizes ---\n";
-    std::cout << "int: " << sizeof(int) << " bytes\n";
+    std::cout << "int: " << sizeof(health) << " bytes\n";
     std::cout << "float: " << sizeof(float) << " bytes\n";
     std::cout << "double: " << sizeof(double) << " bytes\n";
     std::cout << "char: " << sizeof(char) << " byte\n";

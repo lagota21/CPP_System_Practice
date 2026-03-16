@@ -15,19 +15,29 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Phase1_fundamentals\main.cpp">
+    <ClCompile Include="Phase1_fundamentals\01_variables\Variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Phase1_fundamentals\01_variables\Variables.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase1_fundamentals\02_operators\Operators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Phase1_fundamentals\Experiment_runner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Experiment_runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase1_fundamentals\02_operators\Operators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include=".gitattributes" />
   </ItemGroup>
 </Project>
