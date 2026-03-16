@@ -6,7 +6,7 @@
 
 int main()
 {
-	Experiment CurrentExperiment = Experiment::ControlFlow;
+	Experiment CurrentExperiment = Experiment::Operators;
 
 	switch (CurrentExperiment)
 	{	
