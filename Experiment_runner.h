@@ -5,4 +5,5 @@ enum class Experiment
 	Variables,
 	Operators,
 	ControlFlow,
+	LiteralsConstants
 };
