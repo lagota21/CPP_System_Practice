@@ -3,11 +3,12 @@
 #include "Phase1_fundamentals/02_operators/operators.h"
 #include "Phase1_fundamentals/03_controlFlow/controlFlow.h"
 #include "Phase1_fundamentals/04_literals_&_constants/LiteralsConstants.h"
+#include "Phase1_fundamentals/05_dataConversions/DataConversions.h"
  
 
 int main()
 {
-	Experiment CurrentExperiment = Experiment::LiteralsConstants;
+	Experiment CurrentExperiment = Experiment::DataConversions;
 
 	switch (CurrentExperiment)
 	{	
@@ -22,6 +23,9 @@ int main()
 		break;
 	case Experiment::LiteralsConstants:
 		RunLiteralsConstantExperiment();
+		break;
+	case Experiment::DataConversions:
+		RunDataConversionsExperiment();
 		break;
 	}
 	return 0;

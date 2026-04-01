@@ -24,6 +24,7 @@
     <ClCompile Include="Phase1_fundamentals\02_operators\Operators.cpp" />
     <ClCompile Include="Phase1_fundamentals\03_controlFlow\ControlFlow.cpp" />
     <ClCompile Include="Phase1_fundamentals\04_literals_&amp;_constants\LiteralsConstants.cpp" />
+    <ClCompile Include="Phase1_fundamentals\05_dataConversions\DataConversions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Experiment_runner.h" />
@@ -31,6 +32,7 @@
     <ClInclude Include="Phase1_fundamentals\02_operators\Operators.h" />
     <ClInclude Include="Phase1_fundamentals\03_controlFlow\controlFlow.h" />
     <ClInclude Include="Phase1_fundamentals\04_Literals_&amp;_Constants\LiteralsConstants.h" />
+    <ClInclude Include="Phase1_fundamentals\05_dataConversions\DataConversions.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />

@@ -30,6 +30,9 @@
     <ClCompile Include="Phase1_fundamentals\04_literals_&amp;_constants\LiteralsConstants.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Phase1_fundamentals\05_dataConversions\DataConversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Phase1_fundamentals\04_Literals_&amp;_Constants\LiteralsConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase1_fundamentals\05_dataConversions\DataConversions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
