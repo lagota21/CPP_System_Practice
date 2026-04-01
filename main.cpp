@@ -4,11 +4,12 @@
 #include "Phase1_fundamentals/03_controlFlow/controlFlow.h"
 #include "Phase1_fundamentals/04_literals_&_constants/LiteralsConstants.h"
 #include "Phase1_fundamentals/05_dataConversions/DataConversions.h"
+#include "Phase1_fundamentals/06_variableLifeTime_&_Scope/VariableLifeTime_Scope.h"
  
 
 int main()
 {
-	Experiment CurrentExperiment = Experiment::DataConversions;
+	Experiment CurrentExperiment = Experiment::variableLifeTime_Scope;
 
 	switch (CurrentExperiment)
 	{	
@@ -26,6 +27,9 @@ int main()
 		break;
 	case Experiment::DataConversions:
 		RunDataConversionsExperiment();
+		break;
+	case Experiment::variableLifeTime_Scope:
+		RunVariableLifeTime_ScopeExperiment();
 		break;
 	}
 	return 0;

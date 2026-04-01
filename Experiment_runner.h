@@ -6,5 +6,6 @@ enum class Experiment
 	Operators,
 	ControlFlow,
 	LiteralsConstants,
-	DataConversions
+	DataConversions,
+	variableLifeTime_Scope
 };

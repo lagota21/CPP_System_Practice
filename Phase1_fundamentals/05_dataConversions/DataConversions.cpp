@@ -41,10 +41,10 @@ void RunDataConversionsExperiment()
 	std::cout << std::fixed << std::setprecision(2); // Set precision for floating-point output
 
 	float EffectiveArmour = static_cast<float>(ArmourPoints) / ArmourDebuff;
-	std::cout << "Effective Armour: " << EffectiveArmour << "\n\n";
+	std::cout << "Effective Armour: " << EffectiveArmour << "%\n\n";
 
 	float UpdatedArmour = ArmourPoints - EffectiveArmour;
-	std::cout << "Updated Armour: " << UpdatedArmour << "\n\n";
+	std::cout << "Updated Armour: " << UpdatedArmour << "%\n\n";
 
 	// XP system
 	int CurrentXP = 1500;

@@ -33,6 +33,9 @@
     <ClCompile Include="Phase1_fundamentals\05_dataConversions\DataConversions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Phase1_fundamentals\06_variableLifeTime_&amp;_Scope\VariableLifeTime_Scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Phase1_fundamentals\05_dataConversions\DataConversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase1_fundamentals\06_variableLifeTime_&amp;_Scope\VariableLifeTime_Scope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
