@@ -26,6 +26,8 @@
     <ClCompile Include="Phase1_fundamentals\04_literals_&amp;_constants\LiteralsConstants.cpp" />
     <ClCompile Include="Phase1_fundamentals\05_dataConversions\DataConversions.cpp" />
     <ClCompile Include="Phase1_fundamentals\06_variableLifeTime_&amp;_Scope\VariableLifeTime_Scope.cpp" />
+    <ClCompile Include="Phase1_fundamentals\07_loops\Loops.cpp" />
+    <ClCompile Include="Phase1_fundamentals\08_loopsApplication\LoopsApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Experiment_runner.h" />
@@ -35,6 +37,8 @@
     <ClInclude Include="Phase1_fundamentals\04_Literals_&amp;_Constants\LiteralsConstants.h" />
     <ClInclude Include="Phase1_fundamentals\05_dataConversions\DataConversions.h" />
     <ClInclude Include="Phase1_fundamentals\06_variableLifeTime_&amp;_Scope\VariableLifeTime_Scope.h" />
+    <ClInclude Include="Phase1_fundamentals\07_loops\Loops.h" />
+    <ClInclude Include="Phase1_fundamentals\08_loopsApplication\LoopsApplication.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />

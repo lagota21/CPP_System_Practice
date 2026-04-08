@@ -15,9 +15,9 @@ void EvaluatePlayerState()
 		Climbing is disabled if the player is either running or jumping
 	*/
 
-	bool isRunning = true; 
+	bool isRunning = false; 
 	bool isJumping = false;
-	bool isClimbing = true;
+	bool isClimbing = false;
 
 	
 	if (isRunning || isJumping)
@@ -46,7 +46,7 @@ void EvaluateItemQuality()
 	std::cout << "\n--- Item Quality Experiment (Switch) ---\n\n";
 
 	//setting the item quality to legendary for demonstration purposes
-	EItemQuality Item = EItemQuality::Legendary;
+	EItemQuality Item = EItemQuality::Rare;
 
 	std::cout << "Evaluating item quality...\n";
 

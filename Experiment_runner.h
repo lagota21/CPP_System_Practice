@@ -7,5 +7,7 @@ enum class Experiment
 	ControlFlow,
 	LiteralsConstants,
 	DataConversions,
-	variableLifeTime_Scope
+	VariableLifeTime_Scope,
+	Loops,
+	LoopsApplication
 };
