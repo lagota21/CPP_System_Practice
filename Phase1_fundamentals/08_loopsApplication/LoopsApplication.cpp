@@ -14,7 +14,7 @@ void RunLoopsApplicationExperiment()
 	const float XPPerAction = 56.5f;
 
 	// Simulating 5 actions that grant XP to the player. Each action grants a fixed amount of XP (56.5 in this case).
-	for (int i = 0; i < NumberOfActions; i++)
+	for (int i = 0; i < NumberOfActions; ++i)
 	{
 		// The total xp is cast to an integer before the new xp is added, to simulate the display of xp as an integer value in the game.
 		int PreviousXP = static_cast<int>(TotalXP);
@@ -29,14 +29,14 @@ void RunLoopsApplicationExperiment()
 		std::cout << "Action " << (i + 1) << ": Gained XP +" << DisplayGain << "\n";
 	}
 
+	std::cout << "\n--- Leveling Up System ---\n";
+
+	// Simulating a leveling up system where the player gains XP and levels up when reaching the threshold
+
 	TotalXP = 0.0f; // Resetting total XP for the leveling up system
 	int Level = 1; // Starting level of the player
 	const float LevelUpThreshold = 100.0f; // The XP threshold required to level up
 	int ToolBonus = 5; // A multiplier that could represent a bonus from using a specific tool or weapon, which increases the XP gained per action
-
-	std::cout << "\n--- Leveling Up System ---\n";
-
-	// Simulating a leveling up system where the player gains XP and levels up when reaching the threshold
 
 	for (int i = 0; i < 25; ++i)
 	{

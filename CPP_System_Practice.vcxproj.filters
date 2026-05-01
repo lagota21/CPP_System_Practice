@@ -42,12 +42,15 @@
     <ClCompile Include="Phase1_fundamentals\08_loopsApplication\LoopsApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Phase2_functions_memory\01_functions\Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase2_functions_memory\02_functionsApplication\FunctionsApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Phase1_fundamentals\01_variables\Variables.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Experiment_runner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Phase1_fundamentals\02_operators\Operators.h">
@@ -69,6 +72,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Phase1_fundamentals\08_loopsApplication\LoopsApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase2_functions_memory\01_functions\Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase2_functions_memory\02_functionsApplication\FunctionsApplication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

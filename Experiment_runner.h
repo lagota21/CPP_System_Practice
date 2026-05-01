@@ -9,5 +9,6 @@ enum class Experiment
 	DataConversions,
 	VariableLifeTime_Scope,
 	Loops,
-	LoopsApplication
+	LoopsApplication,
+	Functions
 };
